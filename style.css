@@ -35,15 +35,16 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background-color: #31b0d5 ;
-  animation: example 20s infinite;
+ /* background-color: #31b0d5 ; */
+ background-image: url(assets/Images/giphy.gif);
+/*  animation: example 20s infinite; */
   margin-bottom: 0; /*no bottom margin*/
   
 
   display: flex;
   flex-direction: column;
 }
-
+/*
 @keyframes example {
   0%
   {background-color: #31b0d5;}
@@ -68,12 +69,12 @@ body {
   100%
   {background-color: #31b0d5;}
 }
-
+*/
 .jumbotron-text {
   /*TAGLINE UNDER NAME*/
   font-weight: 400;
   font-size: 2em;
-  color: white;
+  color: #E6FB04;
   text-align: center;
   padding-top: 150px;
 }
@@ -256,11 +257,12 @@ h4 {
 
 /*CONTACT*/
 .blue {
-  background-color: #31b0d5 ;
+/*background-color: #31b0d5 ; */
+  background-image: url(assets/Images/giphy.gif);
   animation: example 20s infinite;
   text-align: center;
 }
-
+/*
 @keyframes example {
   0%
   {background-color: #31b0d5;}
@@ -285,7 +287,7 @@ h4 {
   100%
   {background-color: #31b0d5;}
 }
-
+*/
 .contact {
   max-width: 500px;
   margin: 0 auto;
