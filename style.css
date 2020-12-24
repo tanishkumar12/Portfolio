@@ -271,7 +271,7 @@ h4 {
 
 /*CONTACT*/
 .blue {
-  background: linear-gradient(45deg, yellow, orange, red);
+  background-color: black;
   background-size: 400% 400%;
   animation: gradient 6s infinite alternate;
 }
