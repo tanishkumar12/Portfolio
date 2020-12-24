@@ -179,7 +179,7 @@ margin-top: 40px;
 h2 {
   font-weight: 200;
   font-size: 2rem;
-  color: #31b0d5;
+  color: #000000;
   text-transform: uppercase;
   text-align: center;
 }
@@ -263,7 +263,7 @@ h4 {
   margin: 7px;
   padding: 5px 10px;
   color: white;
-  background: #31b0d5;
+  background: #000000;
   list-style: none;
   cursor: default;
   font-size: 1.2em;
@@ -306,7 +306,7 @@ h4 {
   -webkit-transition: .5s ease all;
   transition: .5s ease all;
 }
-
+/*
 @keyframes example {
   0%
   {background-color: #31b0d5;}
@@ -331,7 +331,7 @@ h4 {
   100%
   {background-color: #31b0d5;}
 }
-
+*/
 .contact textarea {
   height: 150px;
   resize: none;
